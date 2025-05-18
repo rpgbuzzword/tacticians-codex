@@ -1,0 +1,21 @@
+{
+    "name": "fe-army-builder-server",
+    "version": "1.0.0",
+    "description": "Backend API for FE Army Builder",
+    "main": "app.js",
+    "scripts": {
+        "dev": "nodemon app.js"
+    },
+    "dependencies": {
+        "bcrypt": "^6.0.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.5.0",
+        "envalid": "^8.0.0",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.2",
+        "pg": "^8.15.6"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    }
+}
